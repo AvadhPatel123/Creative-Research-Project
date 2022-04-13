@@ -1,0 +1,31 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.title{
+  position: absolute;
+  right: 13%;
+  font-size: 80px;
+}
+
+
+.start{
+  position: absolute;
+  right: 7%;
+  top: 50%;
+  font-size: 100px;
+  color: white;
+}
+
+
+.facts{
+  position: absolute;
+  right: 67%;
+  top: 50%;
+  font-size: 100px;
+  color: white;
+}
