@@ -16,11 +16,11 @@ function setup() {
   button2.size(100, 50);
   
   loadImage('Litter.jpeg', img => {
-    image(img, windowWidth/4, windowHeight/4 * 3, 300, 300);
+    image(img, windowWidth/4 - 100, windowHeight/4 * 3 - 170, 300, 300);
   });
   
   loadImage('recycle.png', img => {
-    image(img, windowWidth/4 * 3, windowHeight/4 *3, 300, 300 );
+    image(img, windowWidth/4 * 3 - 120, windowHeight/4 *3 - 170, 300, 300 );
   });
 }
 
