@@ -11,7 +11,7 @@ function setup() {
   button.size(100, 50);
   
   button2 = createButton('Recycle');
-  button2.position(windowWidth/4 * 3, windowHeight/4);
+  button2.position(windowWidth/4 * 3 - 100, windowHeight/4);
   button2.mousePressed(changeBG2);
   button2.size(100, 50);
   
